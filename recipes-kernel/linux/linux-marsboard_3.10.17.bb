@@ -23,7 +23,7 @@ SRC_URI = "git://github.com/jakwu/linux-imx.git;branch=${SRCBRANCH} \
            file://002-ENGR00300876-Fix-flick-issue-in-GAL2D-compositor.patch \
 "
 SRCBRANCH = "embest_imx_3.10.17_1.0.0_ga"
-SRCREV = "6df98572d99b68ce57f69d68b597036a81646e06"
+SRCREV = "d8255dfe3fde5f27d26b02ef9f3a928d54a9884c"
 
 PACKAGES =+ "kernel-dbg"
 FILES_kernel-dbg = "${KERNEL_SRC_PATH}/drivers/input/touchscreen/generic_ts_rel/lib/.debug/"
